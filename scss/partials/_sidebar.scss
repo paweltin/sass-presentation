@@ -1,0 +1,7 @@
+.sidebar {
+  @include column(4);
+  @include pull(12);
+
+  @import "modules/buttons";
+  @import "modules/inputs";
+}

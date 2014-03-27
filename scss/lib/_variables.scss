@@ -1,0 +1,14 @@
+// global vars
+$input-background: #9f9;
+
+// compass vars
+$default-border-radius: 2px;
+$font-color: #404;
+$link-color: #226;
+
+// blueprint vars
+$blueprint-grid-columns: 16;
+$blueprint-grid-width: 60px;
+$blueprint-grid-margin: 15px;
+$blueprint-container-size: ($blueprint-grid-width + $blueprint-grid-margin) * $blueprint-grid-columns;
+$blueprint-background-color: #bfb;

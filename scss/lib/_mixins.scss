@@ -1,0 +1,10 @@
+@mixin border-top-bottom {
+  border: {
+    top: {
+      width: 1px;
+      style: solid;
+      color: #000;
+    }
+    bottom: 2px dotted #f00;
+  }
+}

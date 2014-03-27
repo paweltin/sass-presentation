@@ -1,0 +1,14 @@
+@mixin inputs {
+  .input {
+    @include display-box;
+    @include box-sizing(border-box);
+  }
+
+  .select {
+    @extend .input;
+
+    @include border-radius($default-border-radius * 2);
+  }
+}
+
+@include inputs;
