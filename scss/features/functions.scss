@@ -1,0 +1,37 @@
+$container-width: 1280px;
+
+.container {
+  overflow: hidden;
+  width: $container-width;
+
+  .content {
+    float: left;
+    width: $container-width * .75;
+  }
+
+  .sidebar {
+    float: right;
+    width: $container-width * .25;
+  }
+}
+
+
+
+@function get-fluid-width($fixed-width: $container-width) {
+  @return $fixed-width / $container-width * 100%;
+}
+
+.container-fluid {
+  overflow: hidden;
+  width: get-fluid-width();
+
+  .content {
+    float: left;
+    width: get-fluid-width(880px);
+  }
+
+  .sidebar {
+    float: right;
+    width: get-fluid-width(400px);
+  }
+}

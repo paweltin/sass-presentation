@@ -1,0 +1,25 @@
+.container {
+  overflow: hidden;
+  width: 1280px;
+}
+.container .content {
+  float: left;
+  width: 960px;
+}
+.container .sidebar {
+  float: right;
+  width: 320px;
+}
+
+.container-fluid {
+  overflow: hidden;
+  width: 100%;
+}
+.container-fluid .content {
+  float: left;
+  width: 68.75%;
+}
+.container-fluid .sidebar {
+  float: right;
+  width: 31.25%;
+}

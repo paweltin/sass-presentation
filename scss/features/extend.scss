@@ -1,0 +1,41 @@
+input {
+  display: block;
+  background: #000;
+}
+
+select/*, .logo*/ {
+  display: inline-block;
+  border: 1px solid #f00;
+}
+
+textarea {
+  display: inline;
+  color: #fff;
+}
+
+//.logo {
+//  @extend select;
+//}
+
+
+
+.header {
+  position: relative;
+
+  h1 {
+    .logo {
+      .no-text {
+        position: absolute;
+        top: -10000px;
+      }
+    }
+  }
+}
+
+.extender {
+  @extend .no-text;
+}
+
+.extender-2 {
+  @extend .header;
+}

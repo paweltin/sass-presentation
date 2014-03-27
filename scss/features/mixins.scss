@@ -1,0 +1,40 @@
+@mixin hover-underline {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+a.underlined {
+  color: grey;
+  @include hover-underline;
+}
+
+
+
+@mixin hover-decorate($decor) {
+  color: #0f0;
+  &:hover {
+    text-decoration: $decor;
+  }
+}
+
+a.decorated {
+  @include hover-decorate(blink);
+}
+
+
+
+$color-link: #f00;
+$lighten-amount: 10%;
+
+@mixin link-colors($color: $color-link, $amount: $lighten-amount) {
+  color: $color;
+
+  &:hover {
+    color: lighten($color, $amount);
+  }
+}
+
+a.colored {
+  @include link-colors($amount: 35%);
+}

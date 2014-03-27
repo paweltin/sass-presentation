@@ -1,0 +1,48 @@
+.container {
+  margin: 0 auto;
+  width: 960px;
+
+  .header {
+    color: #fff;
+
+    h2 {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+$width: 10px;
+.list-inline {
+  overflow: hidden;
+
+  li {
+    float: left;
+    margin-right: $width;
+
+    a {
+      $width: 15px;
+      padding: {
+        top: $width;
+        bottom: $width;
+      }
+    }
+
+    border: {
+      width: $width;
+      style: solid;
+      color: #000;
+    }
+  }
+}
+
+
+
+a {
+  $width: 2px !default;
+  font-size: $width;
+  
+  @media (max-width: 1080px) {
+    font-size: 10px;
+  }
+}

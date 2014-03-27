@@ -1,0 +1,20 @@
+a.underlined {
+  color: grey;
+}
+a.underlined:hover {
+  text-decoration: underline;
+}
+
+a.decorated {
+  color: #0f0;
+}
+a.decorated:hover {
+  text-decoration: blink;
+}
+
+a.colored {
+  color: red;
+}
+a.colored:hover {
+  color: #ffb3b3;
+}

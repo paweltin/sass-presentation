@@ -1,0 +1,11 @@
+.container {
+  width: 1000px;
+}
+
+.container-wide {
+  width: 1280px;
+}
+
+.container-narrow {
+  width: 1000px;
+}

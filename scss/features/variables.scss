@@ -1,0 +1,21 @@
+$width: 1000px;
+
+.container {
+  width: $width;
+}
+
+
+
+$width2: $width + 280px;
+
+.container-wide {
+  width: $width2
+}
+
+
+
+$width: 1px !default;
+
+.container-narrow {
+  width: $width;
+}

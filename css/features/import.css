@@ -1,0 +1,10 @@
+.partial {
+  float: left;
+  background-image: url("img/logo.png");
+  background-repeat: no-repeat;
+  background-color: red;
+}
+
+a.info {
+  color: blue;
+}
